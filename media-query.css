@@ -1,0 +1,21 @@
+@media(min-width:769px){
+    .calculadora{
+        width: 50%;
+        height: 80%;
+    }
+    h1{
+        color: var(--azul);
+    }
+    .barra{
+        display: none;
+    }
+    .calcular{
+        font-weight: bold;
+    }
+    .calcular:hover{
+        background-color: var(--branco);
+        color: var(--azul);
+        font-weight: bold;
+        border-color: var(--azul);
+    }
+}
