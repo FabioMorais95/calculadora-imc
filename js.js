@@ -16,7 +16,7 @@ btn.addEventListener('click', () => {
     if (calculo < 18) {
         classificacao = 'Abaixo do peso'
     } else if (calculo < 25) {
-        classificacao = 'Peso ideal'
+        classificacao = 'com Peso ideal'
     }else if(calculo < 29.9){
         classificacao = 'Sobrepeso'
     }else if(calculo < 39){
